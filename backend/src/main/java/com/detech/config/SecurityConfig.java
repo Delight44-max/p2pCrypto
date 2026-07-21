@@ -129,7 +129,9 @@ public class SecurityConfig {
         config.setAllowedOriginPatterns(List.of(
                 frontendUrl,
                 "http://localhost:3000",
-                "https://*.vercel.app"
+                "https://*.vercel.app",
+                "https://escrow.ong",
+                "https://www.escrow.ong"
         ));
 
         config.setAllowedMethods(List.of(
