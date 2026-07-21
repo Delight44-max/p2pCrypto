@@ -1,0 +1,89 @@
+# Node / Frontend
+node_modules/
+.npm
+.next/
+out/
+dist/
+build/
+.eslintcache
+.turbo
+.vercel
+.netlify
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+.env.backup
+.envrc
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.ropeproject
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backend / Maven / Java
+target/
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+*.class
+*.log
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.attach_pid*
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+**/target/
+**/.env
+
+# Contracts / Hardhat
+artifacts/
+cache/
+coverage/
+typechain-types/
+coverage.json
+.flattened/
+deployments/
+node_modules/
+.env
+.env.local
+*.log
+
+# Misc
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+coverage/
+.nyc_output
+.cache
+tmp/
+temp/
+logs/
+
+# Render / Netlify local tooling
+.netlify/
+render.yaml.local

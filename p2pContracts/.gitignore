@@ -1,0 +1,28 @@
+# Hardhat / Contracts
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain-types/
+.flattened/
+deployments/
+node_modules/
+out/
+
+# Secrets
+.env
+.env.local
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Misc
+*.tar.gz
+*.zip
